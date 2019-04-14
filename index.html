@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>STAPS - Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="refresh_time()">
+
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+			<h1 id="colorlib-logo"><a href="index.html"><span class="img" style="background-image: url(images/logo-up13.jpg);"></span>Equipe féminine de Rugby Paris XIII</a></h1>
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li class="colorlib-active"><a href="index.html">Accueil</a></li>
+					<li><a href="thematic_one.html">Présentation de l'équipe</a></li>
+					<li><a href="thematic_two.html">Palmarès</a></li>
+					<li><a href="download_page.html">Téléchargements</a></li>
+				</ul>
+			</nav>
+
+			<div class="colorlib-footer">
+				<script>
+
+					function refresh_time()
+					{
+						var madate = new Date();
+						s = madate.toLocaleDateString()+ " - " + madate.getHours() + ":" + madate.getMinutes() +":" +madate.getSeconds();
+						document.getElementById("horloge").innerHTML=s;
+						timer = setTimeout("refresh_time()",1000);
+					}
+
+				</script>
+				<h3 id="horloge"></h3>
+
+			</div>
+		</aside>
+
+		<!-- END COLORLIB-ASIDE -->
+
+		<div id="colorlib-main">
+			<section class="ftco-section-no-padding bg-light">
+				<div class="hero-wrap">
+					<div class="overlay"></div>
+					<div class="d-flex align-items-center js-fullheight">
+						<div class="author-info text p-3 p-md-5">
+							<div class="desc">
+								<span class="subheading">Présentation de l'équipe</span>
+								<h1 class="big-letter">Rugby Université Paris XIII</h1>
+								<p class="mb-4">Ce site à pour de présenter l’équipe féminine de rugby de l’université Paris 13 et faire découvrir aux futurs étudiants le sport universitaire.
+									Vous trouverez ainsi des informations concernant les joueuses de l'équipe ainsi que son coach, Marc Henry Kugler. </p>
+								<p class="signature h1"></p>
+							</div>
+						</div>
+						<div class="author-image text img d-flex">
+							<section class="home-slider js-fullheight owl-carousel">
+								<div class="slider-item js-fullheight" style="background-image: url(images/rugby_ball.jpg);"></div>
+								<div class="slider-item js-fullheight" style="background-image: url(images/19275116_130342624212216_7717632971289080718_n.jpg);"></div>
+								<div class="slider-item js-fullheight" style="background-image:url(images/UP-13-Université-Bobigny-e1464084467672.jpg);"></div>
+								<div class="slider-item js-fullheight" style="background-image:url(images/57077600_1057817451073138_5799726551490625536_n.jpg);"></div>
+							</section>
+						</div>
+
+					</div>
+				</div>
+
+				<section class="ftco-section instagram">
+					<div class="container">
+
+					</div>
+				</section>
+				<section class="ftco-section instagram">
+					<div class="container">
+
+					</div>
+				</section>
+
+				<div class="hero-wrap">
+					<div class="overlay"></div>
+					<div class="d-flex align-items-center js-fullheight">
+						<div class="author-image text img d-flex">
+							<section class="home-slider js-fullheight owl-carousel">
+								<div class="slider-item js-fullheight" style="background-image: url(images/20156166_142692379643907_2365692622954793730_n.jpg);"></div>
+								<div class="slider-item js-fullheight" style="background-image:url(images/57154176_406657696797582_4118476721756307456_n.jpg);"></div>
+								<div class="slider-item js-fullheight" style="background-image:url(images/57213862_280092072922743_3057945375345213440_n.jpg);"></div>
+								<div class="slider-item js-fullheight" style="background-image: url(images/19225917_130341854212293_6098917689416827261_n.jpg);"></div>
+							</section>
+						</div>
+						<div class="author-info text p-3 p-md-5">
+							<div class="desc">
+								<span class="subheading">Palmarès de l'équipe</span>
+								<h1 class="big-letter">Rugby Université Paris XIII</h1>
+								<p class="mb-4">Vous pourrez également trouver le palmarès impressionnant de cette équipe qui fait briller l'université paris 13 chaque année sur le plan national et international depuis sa création.</p>
+								<p class="signature h1"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="ftco-section instagram">
+				<div class="container">
+
+				</div>
+			</section>
+			<div align="center">
+				<img src=images/qrcode.png alt="Qr Code">
+			</div>
+			<section class="ftco-section instagram">
+				<div class="container">
+
+				</div>
+			</section>
+			<footer class="ftco-footer ftco-bg-dark ftco-section">
+				<div class="container px-md-5">
+
+					<div class="row" align="center">
+						<div class="col-md-12">
+							<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div><!-- END COLORLIB-MAIN -->
+	</div><!-- END COLORLIB-PAGE -->
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  </body>
+</html>
